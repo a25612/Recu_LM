@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
 body {
     margin: 0;
     font-family: 'Inter';
@@ -87,20 +85,33 @@ header img {
     cursor: pointer;
 }
 
-.main{
+.main {
     background-image: linear-gradient(to right, #766df4, #6a9af3);
-    margin-top: -19px;
-    padding: 220px;
+    margin-top: -30px;
+    padding: 235px;
 }
 
 .main h2 {
     margin: 0px;
     font-size: 47px;
-    font-weight: bold; 
-    color: white; 
+    font-weight: bold;
+    color: white;
 }
 
-.main h3{
-    font-size: 20px;
-    color: white;
+.main h3 {
+    font-size: 18.5px;
+    text-decoration: none;
+    color: #f7f7fcb9;
+}
+
+.main img {
+    width: 30%;
+    margin-left: -17px;
+}
+
+.image-mobile {
+    position: relative;
+    width: 18%; /* Ajusta el ancho según sea necesario */
+    float: right; /* Esto moverá la imagen móvil a la derecha */
+    margin-bottom: 100px;
 }
