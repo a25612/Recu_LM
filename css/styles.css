@@ -86,3 +86,21 @@ header img {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.main{
+    background-image: linear-gradient(to right, #766df4, #6a9af3);
+    margin-top: -19px;
+    padding: 220px;
+}
+
+.main h2 {
+    margin: 0px;
+    font-size: 47px;
+    font-weight: bold; 
+    color: white; 
+}
+
+.main h3{
+    font-size: 20px;
+    color: white;
+}
