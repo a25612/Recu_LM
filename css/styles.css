@@ -89,11 +89,12 @@ header img {
     background-image: linear-gradient(to right, #766df4, #6a9af3);
     margin-top: -30px;
     padding: 235px;
+    margin-left: -80px;
 }
 
 .main h2 {
     margin: 0px;
-    font-size: 47px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
 }
@@ -111,30 +112,47 @@ header img {
 
 .image-mobile {
     position: relative;
-    width: 10%;
+    width: 20%;
     float: right;
     margin-bottom: 100px;
-}
-.around{
-    margin-left: 150px;
-}
-.around h4{
-    margin: 0px;
-    font-size: 42px;
-    color: #696a83;
-    margin-top: 150px;
+    margin-right: -100px;
 }
 
-.around div{
+.around {
+    margin-top: 120px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.around h4 {
+    margin: 55px 0; 
+    font-size: 42px;
+    color: #505164;
+
+}
+
+.around div {
     margin: 0px;
     font-size: 28px;
     font-weight: bold;
-    color: #737491;
+    color: #505164;
     margin-top: 10px;
 }
 
-.around p{
-    margin-top: -5px;
+.around>div {
+    margin-bottom: 8px;
+}
+
+.around p {
+    margin-top: 25px;
+    margin-bottom: 20px;
     color: #737491;
-    font-size: 18px;    
+    font-size: 18px;
+}
+
+.around div.column1 {
+    margin-top: 158px;
 }
