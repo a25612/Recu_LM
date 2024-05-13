@@ -247,3 +247,22 @@ header img {
     height: auto; 
     margin-right: 140px;
 }
+
+.footer {
+    background-color: #373a4d;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+
+.footer img{
+    height: 70px;
+    margin-left: 100px;
+}
+
+.footer .links {
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+    margin-right: 550px;
+}
