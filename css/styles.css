@@ -56,7 +56,14 @@ header img {
 
 .buttons {
     display: flex;
-    margin-right: 70px;
+    margin-right: 149px;
+}
+
+.button-icon {
+    width: 40px; 
+    height: 40px; 
+    margin-right: -16px; 
+    margin-top: 5px;
 }
 
 .up {
@@ -69,7 +76,6 @@ header img {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    cursor: pointer;
     border-radius: 12px;
 }
 
@@ -128,7 +134,7 @@ header img {
 }
 
 .around h4 {
-    margin: 55px 0; 
+    margin: 55px 0;
     font-size: 42px;
     color: #505164;
 
@@ -165,7 +171,7 @@ header img {
 }
 
 .question-row {
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 .question {
@@ -175,7 +181,7 @@ header img {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     padding: 10px;
-    width: 48%; 
+    width: 48%;
 }
 
 .question::after {
@@ -185,7 +191,7 @@ header img {
     right: 40px;
     transform: translateY(-50%);
     font-size: 32px;
-    color: #505164; 
+    color: #505164;
 }
 
 .question1::after {
@@ -195,7 +201,7 @@ header img {
     right: 40px;
     transform: translateY(-50%);
     font-size: 32px;
-    color: #505164; 
+    color: #505164;
 }
 
 .question1 {
@@ -205,7 +211,7 @@ header img {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     padding: 12px;
-    width: 48%; 
+    width: 48%;
 }
 
 .question1 h3 {
@@ -218,11 +224,12 @@ header img {
 
 .question1 p {
     color: #737491;
-    margin: 15px 0px 15px; 
+    margin: 15px 0px 15px;
     font-size: 18px;
     text-align: left;
     margin-left: 40px;
 }
+
 .question h4 {
     color: #505164;
     margin-top: 0;
@@ -236,15 +243,15 @@ header img {
     color: #505164;
     font-size: 43px;
     text-align: center;
-    margin-top: 100px; 
+    margin-top: 100px;
 }
 
 .questions img {
     position: relative;
     bottom: 0;
     float: right;
-    width: 750px; 
-    height: auto; 
+    width: 750px;
+    height: auto;
     margin-right: 140px;
 }
 
@@ -264,19 +271,21 @@ footer {
     margin: 0 auto;
     padding: 0 20px;
 }
-.redes{
+
+.redes {
     height: 80px;
     margin-left: -220px;
 }
 
-.logofooter{
+.logofooter {
     height: 70px;
     margin-left: -200px;
 }
+
 .footer-logo p {
     color: #9898af;
     margin: 35px 0;
-    font-size: 18px;
+    font-size: 19px;
     margin-left: -200px;
 }
 
@@ -287,16 +296,11 @@ footer {
     display: flex;
     flex: 2;
     justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.footer-column {
-    margin: 10px 20px;
 }
 
 .footer-column h4 {
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .footer-column ul {
@@ -308,10 +312,10 @@ footer {
     margin: 15px 0;
 }
 
-.footer-column ul li{
+.footer-column ul li {
     color: #9898af;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 19px;
 }
 
 .footer-bottom {
@@ -342,10 +346,11 @@ footer {
     width: 85%;
     height: 1px;
     background-color: #9898af42;
-    margin: 45px auto; 
+    margin: 45px auto;
 }
 
 .footer-bottom ul li {
+    font-size: 17px;
     margin: 15px 10px;
     color: #9898af;
     text-decoration: none;
